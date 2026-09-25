@@ -2,7 +2,7 @@
 import strawberry
 from typing import List
 from app.db import get_collection
-from bson.objectid import Objectid
+from bson.objectid import ObjectId
 
 @strawberry.type
 class Item:
